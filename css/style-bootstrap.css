@@ -1,0 +1,466 @@
+/* 
+    Nmae: Jamal Omar AlDirawi
+    Email: jamalo.dirawi@gmail.com
+    Date: 10/12/2021
+*/
+
+
+/* Start Code CSS */
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/* End Code CSS */
+
+/* Start Globale Code CSS */
+
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* End Globale Code CSS */
+
+/* Start Section Nav */
+
+.navbar-section .navbar{
+    margin-bottom: 10px;
+
+}
+.navbar-section .navbar-collapse{
+    float: right;
+}
+.navbar-section .navbar-default{
+    background-color: #150C3F;
+    border: 1px solid #1C1057 ;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.navbar-section .navbar-brand{
+    font-weight: bold;
+    color: #fff;
+    font-family: "Kavivanar", cursive;
+}
+.navbar-section .navbar-nav li a{
+    font-weight: bold;
+    color: #fff;
+    font-family: "Kavivanar", cursive;
+}
+.navbar-section li .sr-only{
+    background-color: blue;
+}
+.navbar-section .navbar-default .navbar-nav>.active>a,.navbar-nav>.active>a{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.navbar-section .navbar-default .navbar-nav>.active>a,.navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgb(143, 143, 143);
+}
+
+.navbar-section .navbar-collapse {
+    padding-right: 41px;
+    padding-left: 15px;
+}
+
+/* End Section Nav */
+
+
+/* Start Section header */
+
+.head-sec{
+    background-color: #1C1057;
+    margin-top: 50px;
+    padding: 20px;
+}
+.head-sec .head-sec-discreption h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0.2em ;
+}
+.head-sec .head-sec-discreption p{
+    color: #fff;
+}
+.head-sec .head-sec-discreption h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 1em ;
+    margin-top: 1em ;
+    line-height: 30px;
+}
+.head-sec .head-sec-discreption .p{
+    color: #fff;
+    line-height: 30px;
+}
+.head-sec .head-sec-discreption h4{
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 80px ;
+    font-family: "Kavivanar", cursive;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.head-sec .head-sec-discreption h5{
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px ;
+    font-family: "Kavivanar", cursive;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.head-sec .col-md-6{
+    overflow-x: hidden;
+}
+@media (max-width:800px) {
+    .head-sec .head-sec-img{
+        display: none;
+    }
+}
+@media (min-width:720px) and (max-width:991px) {
+    .head-sec .head-sec-img{
+        padding: 0 100px ;
+    }
+}
+
+
+
+
+
+/* End Section header */
+
+
+
+
+/* Start Section knowm */
+
+.knowme-sec{
+    background: url("../images/clouds\ dawn.jpg") no-repeat ;
+    background-size: cover !important;
+    height: 100vh;
+    background-color: #fff;
+}
+.knowme-sec .col-lg-6{
+    text-align: center;
+    padding: 40px 0;
+}
+.knowme-sec .title{
+    color: #1C1057;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Kavivanar", cursive;
+
+}
+.knowme-sec .desc{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.knowme-sec .p2{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.knowme-sec .button a{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #1C1057;
+    padding: 10px 15px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.knowme-sec .button a:hover{
+    color: #1C1057;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 15px;
+}
+@media (max-width:720px) {
+    .knowme-sec .desc{
+        color: #fff;
+        font-weight: bolder;
+        font-size: 15px;
+        padding: 20px 0;
+    }
+    .knowme-sec .p2{
+        color: #fff;
+        font-weight: bolder;
+        font-size: 15px;
+        padding: 20px 0;
+    }
+}
+
+/* End Section knowm */
+
+
+/* Start Section Experience */
+
+
+.experience-sec{
+    background-color: #1C1057;
+}
+.experience-sec .container{
+    color: #fff;
+}
+.experience-sec .container .row{ 
+    margin: 10px 0;
+}
+.experience-sec .container .title{ 
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Kavivanar", cursive;
+
+}
+.experience-sec .container .box-top{ 
+    padding: 20px 0;
+}
+@media (max-width:720px) {
+    .experience-sec{
+        text-align: center;
+    }
+}
+
+
+/* End Section Experience */
+
+
+/* Start Section educational */
+
+
+.educational-sec{
+    background-color: #1C1057;
+    padding: 25px 0;
+
+}
+.educational-sec .container{
+    color: #fff;
+}
+.educational-sec .container .row{ 
+    margin: 10px 0;
+}
+.educational-sec .container .title{ 
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Kavivanar", cursive;
+
+}
+.educational-sec .container .box-top{ 
+    padding: 20px 0;
+}
+@media (max-width:720px) {
+    .educational-sec{
+        text-align: center;
+    }
+}
+
+/* End Section educational */
+
+/* Start Section skillset */
+
+
+.skillset-sec{
+    background-color: #150C3F;
+    padding: 10px 0;
+}
+.skillset-sec .container{
+    color: #fff;
+}
+.skillset-sec .container .row{ 
+    margin: 10px 0;
+}
+.skillset-sec .container .title{ 
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Kavivanar", cursive;
+
+}
+.skillset-sec .container .title h5{ 
+    line-height: 20px;    
+}
+.skillset-sec .container .box-skillset{ 
+    padding: 50px 0;
+}
+.skillset-sec .container .box-skillset h1{ 
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 20px 0;
+}
+.skillset-sec .container .box-skillset h5{ 
+    font-size: 20px;
+}
+
+/* End Section skillset */
+
+/* Start Section Contact */
+
+.contact-sec{
+    background-color: #1C1057;
+    padding: 30px 0;
+}
+
+.contact-sec .content  h1{
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-family: "Kavivanar", cursive;
+
+}
+.contact-sec .content h5{
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.contact-sec .wrapper {
+    margin: 0px auto 0;
+    width: 100%;
+    max-width: 680px;
+    box-sizing: border-box;
+}
+
+/* content */
+.contact-sec .content {
+    text-align: center;
+}
+
+.contact-sec .content h1 {
+    letter-spacing: 1px;
+}
+
+.contact-sec 
+.top-form,
+.middle-form,
+.bottom-form {
+    width: 100%;
+    min-height: 65px;
+    color: #fff;
+    }
+
+.contact-sec .form input[type="text"],.form textarea {
+    border: 2px solid #fff;
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 2px;
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+.contact-sec .form input:focus,.form textarea:focus {
+    border-color: #2b00ff;
+    outline: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.0125),0 0 8px rgba(76, 161, 175, 0.5);
+    }
+
+    .contact-sec .form .label {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-size: 15px;
+    }
+
+/* top-contact */
+.contact-sec .top-form .inner-form {
+    width: 29.9%;
+    float: left;
+    margin-right: 5%;
+}
+
+.contact-sec .top-form .inner-form:last-child {
+    margin-right: 0;
+}
+
+
+/* middle-form */
+.contact-sec .middle-form {
+    clear: both;
+}
+
+/* bottom-form */
+.contact-sec .bottom-form textarea {
+    height: 80px;
+}
+
+.contact-sec .btn {
+    background: #fff;
+    padding: 10px 0;
+    border-radius: 2px;
+    text-align: center;
+    color: #1C1057;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.contact-sec .btn a{
+    text-decoration: none;
+    color: #1C1057;
+    font-weight: bolder;
+}
+
+/* End Section Contact */
+
+
+/* Start Section Footer */
+
+.footer-sec{
+    background-color: #150C3F;
+    color: #fff;
+}
+
+.footer-sec .head-sec-icons{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-sec .head-sec-icons a i{
+    text-align: center;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.footer-sec .head-sec-icons a i:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+/* End Section Footer */
+
+
+
+
+
+
+
