@@ -1,7 +1,6 @@
 /* 
     Nmae: Jamal Omar AlDirawi
     Email: jamalo.dirawi@gmail.com
-    Date: 10/12/2021
 */
 
 
@@ -50,13 +49,19 @@ body{
     color: #fff;
     font-family: "Kavivanar", cursive;
 }
+.navbar-section .navbar-brand:hover {
+    color: #2b00ff;
+}
 .navbar-section .navbar-nav li a{
     font-weight: bold;
     color: #fff;
     font-family: "Kavivanar", cursive;
 }
+.navbar-section .navbar-nav li a:hover {
+    color: #2b00ff;
+}
 .navbar-section li .sr-only{
-    background-color: blue;
+    background-color: #2b00ff;
 }
 .navbar-section .navbar-default .navbar-nav>.active>a,.navbar-nav>.active>a{
     transition: 1s;
@@ -140,13 +145,7 @@ body{
     }
 }
 
-
-
-
-
 /* End Section header */
-
-
 
 
 /* Start Section knowm */
@@ -457,10 +456,5 @@ body{
 }
 
 /* End Section Footer */
-
-
-
-
-
 
 
